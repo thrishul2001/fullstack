@@ -12,33 +12,23 @@
             margin: 5px;
             box-sizing: border-box;
         }
-        .background {
-            color: #fff;
+        div.parent h1 {
+            background-color:green;
         }
-
-        h1.background {
-            background-color:yellowgreen;
-        }
-
-        h2.background {
-            background-color:pink;
-        }
-
-        h3.background {
-            background-color:grey;
-        }
-
-        span.background {
+        div.parent h2 {
             background-color:green;
         }
     </style>
 </head>
 
 <body>
-    <h1 class="background">Heading One</h1>
-    <h2 class="background">Heading Two</h2>
-    <h3 class="background">Heading Three</h3>
-    <span class="background">i am a span</span>
+    <div class="parent">
+        <div>i'm a div</div>
+        <h1>I'm a heading</h1>
+        <h2>I'm a heading</h2>
+        <div>I'm a div again</div>
+    </div>
+
 </body>
 
 </html>
